@@ -39,30 +39,51 @@
 
 
 //(4)Create a simple calculator using if else statement
-var a = parseFloat(prompt("Enter first number: "))
-var b = parseFloat(prompt("Enter second number: "))
-var operator = prompt("Enter an operator (+, -, *, /): ")       
+// var a = parseFloat(prompt("Enter first number: "))
+// var b = parseFloat(prompt("Enter second number: "))
+// var operator = prompt("Enter an operator (+, -, *, /): ")       
 
-if(operator=="+"){
-    console.log("The sum is: " + (a+b))
-}
-else if(operator=="-"){
-    console.log("The difference is: " + (a-b))
-}
-else if(operator=="*"){
-    console.log("The product is: " + (a*b))
-}
-else if(operator=="/"){
-    if(b!=0){
-        console.log("The quotient is: " + (a/b))
-    }
-    else{
-        console.log("Cannot divide by zero")
-    }
-}
-else{
-    console.log("Invalid operator")
-}
+// if(operator=="+"){
+//     console.log("The sum is: " + (a+b))
+// }
+// else if(operator=="-"){
+//     console.log("The difference is: " + (a-b))
+// }
+// else if(operator=="*"){
+//     console.log("The product is: " + (a*b))
+// }
+// else if(operator=="/"){
+//     if(b!=0){
+//         console.log("The quotient is: " + (a/b))
+//     }
+//     else{
+//         console.log("Cannot divide by zero")
+//     }
+// }
+// else{
+//     console.log("Invalid operator")
+// }
+
+
+
+//Create a program that categories age into child, teenager, adult and senior citizen
+// let age = Number(prompt("Enter your age: "));
+
+// if (age >= 0 && age <= 12) {
+//     console.log("You are a child.");
+// }
+// else if (age > 12 && age <= 19) {
+//     console.log("You are a teenager.");
+// }
+// else if (age > 19 && age <= 59) {
+//     console.log("You are an adult.");
+// }
+// else if (age >= 60) {
+//     console.log("You are a senior citizen.");
+// }
+// else {
+//     console.log("Invalid age entered.");
+// }
 
 
 
