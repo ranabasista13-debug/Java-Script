@@ -59,30 +59,30 @@
 //Create a function named calculator ehich takes two input of numbers from the user ask user the operator
 // and perform addition subtraction, multiplication, and division also display the result in a formatted way.
 
-function calculator(){
-    var a = parseFloat(prompt("Enter first number: "));
-    var b = parseFloat(prompt("Enter second number: "));
-    var operator = prompt("Enter an operator (+, -, *, /): ");  
+// function calculator(){
+//     var a = parseFloat(prompt("Enter first number: "));
+//     var b = parseFloat(prompt("Enter second number: "));
+//     var operator = prompt("Enter an operator (+, -, *, /): ");  
 
-    if(operator=="+"){
-        console.log("The sum is: " + (a+b))
-    }
-    else if(operator=="-"){
-        console.log("The difference is: " + (a-b))
-    }
-    else if(operator=="*"){
-        console.log("The multiplication is: " + (a*b))
-    }
-    else if(operator=="/"){
-        if(b!=0){
-            console.log("The quotient is: " + (a/b))
-        }
-        else{
-            console.log("Cannot divide by zero")
-        }
-    }
-    else{
-        console.log("Invalid operator")
-    }
-}
-calculator()
+//     if(operator=="+"){
+//         console.log("The sum is: " + (a+b))
+//     }
+//     else if(operator=="-"){
+//         console.log("The difference is: " + (a-b))
+//     }
+//     else if(operator=="*"){
+//         console.log("The multiplication is: " + (a*b))
+//     }
+//     else if(operator=="/"){
+//         if(b!=0){
+//             console.log("The quotient is: " + (a/b))
+//         }
+//         else{
+//             console.log("Cannot divide by zero")
+//         }
+//     }
+//     else{
+//         console.log("Invalid operator")
+//     }
+// }
+// calculator()
