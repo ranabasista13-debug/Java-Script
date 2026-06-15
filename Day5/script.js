@@ -86,3 +86,66 @@
 //     }
 // }
 // calculator()
+
+
+
+//Create a function named pattern and display the given pattern 
+function pattern(){
+    for(let i=1; i<=5; i++){
+        let pattern=""
+        for(let j=1; j<=5-i; j++){
+            pattern+=" "
+        }
+        for(let k=1; k<=2*i-1; k++){
+            pattern+="*"
+        }
+        console.log(pattern)
+    }
+}
+pattern()
+
+
+
+//Create a function named pattern and display the given pattern 
+function pattern2(){
+    
+    for (let i=1; i<=5; i++){
+        pattern = ""
+        for(let j=1; j<=i; j++){
+            pattern += "*"
+        }   
+        console.log(pattern)
+    }
+}
+pattern2()
+
+
+
+//Create a function named pattern and display the given pattern 
+function pattern3(){
+    let count=5
+    for(let i=1; i<=5; i++){
+        let pattern=""
+        for(let j=1; j<=i; j++){
+            pattern+=count+" "
+            count++
+        }
+        console.log(pattern)
+    }
+
+}
+pattern3()
+
+
+
+//Create a function named pattern and display the given pattern 
+function pattern4(){
+    for (let i=1; i<=5; i++){
+        pattern = ""
+        for(let j=1; j<=i; j++){
+            pattern += "*"
+        }   
+        console.log(pattern)
+    }
+}
+pattern4()
